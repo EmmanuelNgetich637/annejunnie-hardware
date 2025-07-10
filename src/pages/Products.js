@@ -5,7 +5,8 @@ import ProductCard from "../components/ProductCard";
 const products = [
   {
     title: "Hammer",
-    image: "/images/download (4).jpeg"
+    image: "/images/download (4).jpeg",
+    price: 350,
   },
   {
     title: "Paint Bucket",

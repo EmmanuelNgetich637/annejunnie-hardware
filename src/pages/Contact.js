@@ -8,8 +8,8 @@ function Contact() {
         {/* Contact Info */}
         <div className="col-md-6">
           <h5>Visit Our Store</h5>
-          <p><strong>Location:</strong> Market Street, Eldoret, Kenya</p>
-          <p><strong>Phone:</strong> +254 712 345 678</p>
+          <p><strong>Location:</strong> Bomet Town, Bomet, Kenya</p>
+          <p><strong>Phone:</strong> +254 799 199 137</p>
           <p><strong>Email:</strong> info@annejunniehardware.com</p>
         </div>
 

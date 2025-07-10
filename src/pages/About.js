@@ -5,7 +5,7 @@ function About() {
         <div className="container mt-5">
             <h2 className="mb-4">About Annejunnie Hardware</h2>
             <p>
-                <strong>Annejunnie Hardware</strong>is a trusted and customer-focused hardware shop located in the heart of Eldoret, Kenya. 
+                <strong>Annejunnie Hardware</strong>is a trusted and customer-focused hardware shop located in the Bomet, Kenya. 
         We supply a wide range of quality construction and home improvement materials — from cement and nails to tools and paints — 
         all at affordable prices.
             </p>
