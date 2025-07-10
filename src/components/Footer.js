@@ -8,7 +8,7 @@ function Footer() {
         © 2025 <Link to="/" className="text-info text-decoration-none">Annejunnie Hardware</Link>
       </p>
       <p>
-        Phone: <a href="tel:+254792791696" className="text-light">0712-345-678</a> |
+        Phone: <a href="tel:+254799199137" className="text-light">0799-199-137</a> |
         Email: <a href="mailto:info@annejunnie.co.ke" className="text-light">info@annejunnie.co.ke</a>
       </p>
       <p>
