@@ -5,32 +5,31 @@ import ProductCard from "../components/ProductCard";
 const products = [
   {
     title: "Hammer",
-    image: "https://cdn.pixabay.com/photo/2016/04/01/09/44/hammer-1306610_1280.png",
-    price: 350,
+    image: "/images/download (4).jpeg"
   },
   {
     title: "Paint Bucket",
-    image: "https://cdn.pixabay.com/photo/2016/04/01/09/44/hammer-1306610_1280.png",
+    image: "/images/download (5).jpeg",
     price: 1450,
   },
   {
     title: "Cement Bag",
-    image:  "https://cdn.pixabay.com/photo/2015/12/09/17/12/cement-1081840_1280.jpg",
+    image:  "/images/download (3).jpeg",
     price: 700,
   },
   {
     title: "Nails (1kg)",
-    image:  "https://cdn.pixabay.com/photo/2017/08/30/07/45/nails-2692719_1280.jpg",
+    image:  "/images/download (2).jpeg",
     price: 200,
   },
   {
     title: "Screwdriver",
-    image: "https://cdn.pixabay.com/photo/2013/07/13/12/45/screwdriver-159190_1280.png",
+    image: "/images/download (1).jpeg",
     price: 180,
   },
   {
     title: "Measuring Tape",
-    image:  "https://cdn.pixabay.com/photo/2016/03/27/19/46/measuring-tape-1281706_1280.jpg",
+    image:  "/images/download.jpeg",
     price: 250,
   },
 ];
