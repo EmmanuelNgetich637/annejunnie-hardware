@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
     return (
-        <div className="containeer mt-5">
+        <div className="container fade-in mt-5 text-center">
             <div className="jumbotron bg-light p-5 rounded">
                 <h1 className="display-4">Welcome to Annejunnie Hardware</h1>
                 <p className="lead">We stock quality tools, fittings, paint, and more.</p>

@@ -1,13 +1,14 @@
 {
   "name": "annejunnie-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend API for Annejunnie using Express and PostgreSQL",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Emmanuel Ngetich",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {

@@ -7,7 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background: linear-gradient(to right, #f0f2f5, #e4ecf4);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
