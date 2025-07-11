@@ -35,14 +35,14 @@ const products = [
   },
 ];
 
-function Products() {
+function Products({addToCart}) {
   return (
     <div className="container mt-5">
       <h2 className="mb-4">Our Products</h2>
       <div className="row">
-        {products.map((item, i) => (
-          <div className="col-md-4 mb-4" key={i}>
-            <ProductCard {...item} />
+        {products.map((product, index) => (
+          <div className="col-md-4 mb-4" key={index}>
+            <ProductCard key={index} {...product} addToCart={addToCart} />
           </div>
         ))}
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Navbar(){
+function Navbar({cartCount}){
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container">
@@ -27,6 +27,11 @@ function Navbar(){
                         </li>
                         <li className="nav-item">
                         <Link className="nav-link" to="/contact">Contact</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/cart">
+                                Cart <span className="badge bg-warning text-dark">{cartCount}</span>
+                            </Link>
                         </li>
                     </ul>
                 </div>
