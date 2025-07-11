@@ -2,6 +2,14 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');
+const productRoutes = require('./routes/productRoutes');
+const contactRoutes = require('./routes/contactRoutes');
+const orderRoutes = require('./routes/orderRoutes');
+
+app.use('/api/products', productRoutes);
+app.use('/api/contact', contactRoutes);
+app.use('/api/orders', orderRoutes);
+
 
 dotenv.config();
 
