@@ -8,7 +8,7 @@ function Home() {
                 <p className="lead">We stock quality tools, fittings, paint, and more.</p>
                 <hr className="my-4"/>
                 <p>Browse our product collection or reach out to learn more.</p>
-                <a className="btn btn-primary btn-lg" href="/products">
+                <a className="btn btn-primary btn-lg btn-animated mt-3" href="/products">
                     View Products
                 </a>
             </div>
