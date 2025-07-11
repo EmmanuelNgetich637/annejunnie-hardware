@@ -1,12 +1,16 @@
-const express= require('express');
-const router= express.Router();
+const express = require('express');
+const router = express.Router();
+const Product = require('../models/Product');
 
-const products = [
-     { id: 1, name: 'Hammer', price: 350, image: 'hammer.jpg' },
-     { id: 2, name: 'Screwdriver', price: 150, image: 'screwdriver.jpg' },
-];
-
-router.get('/', (req, res) =>{
+// @route GET /api/products
+router.get('/', async (req, res) => {
+  try {
+    const products = await Product.find();
     res.json(products);
+  } catch (err) {
+    console.error('Failed to fetch products:', err);
+    res.status(500).json({ error: 'Server error' });
+  }
 });
+
 module.exports = router;
